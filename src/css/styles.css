@@ -1,28 +1,26 @@
 body {
   margin: 0;
+  padding: 0;
+  background-color: #010618;
+  color: #f5f6f6; 
   font-family: sans-serif;
-  background: #121212;
-  color: #ffffff;
-  text-align: center;
+}
+
+main {
   padding: 2rem;
+  text-align: center;
 }
 
 .menu {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin-top: 2rem;
 }
 
 .item {
-  background: #333;
-  padding: 1rem 2rem;
-  border-radius: 8px;
+  background-color: #17202f;
+  padding: 1rem;
+  border-radius: 0.5rem;
   cursor: pointer;
-  transition: background 0.3s;
-}
-
-.item:hover {
-  background: #555;
 }
