@@ -5,15 +5,18 @@ function Home() {
 
     return (
         <main>
-            <h1>Hi! I'm Lucas</h1>
-            <p>Developer</p>
+            <div className="main-body">
+                <h1>Hi! I'm Lucas</h1>
+                <p>Developer</p>
 
-            <div className="menu">
-                <div className="item" onClick={() => setShowAbout(true)}>About</div>
-                <div className="item">Projects</div>
-                <div className="item">Links</div>
-                <div className="item">Progress</div>
+                <div className="menu">
+                    <div className="item" onClick={() => setShowAbout(true)}>About</div>
+                    <div className="item">Projects</div>
+                    <div className="item">Links</div>
+                    <div className="item">Progress</div>
+                </div>
             </div>
+
 
             {/* Pop up section for About */}
             {showAbout && (
@@ -31,7 +34,7 @@ function Home() {
                             />
                             <div className="about-text">
                                 <h2>Fracas</h2>
-                                <p>A passionate developer exploring creative web experiences.</p>
+                                <p>Just another dev that might end up on the streets...</p>
                             </div>
                         </div>
 
