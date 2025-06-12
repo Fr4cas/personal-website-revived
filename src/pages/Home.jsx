@@ -1,7 +1,7 @@
 function Home() {
     return (
         <main>
-            <h1>Hi! I'm Lucas</h1>
+            <h1 className="'text-red-500">Hi! I'm Lucas</h1>
             <p>Developer</p>
 
             <div className="menu">
