@@ -22,6 +22,20 @@ main {
   max-width: 600px;
 }
 
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #c0faff;
+}
+
+.main-body p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 .menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -43,6 +57,12 @@ main {
   min-height: 120px;
   overflow: hidden;
   box-sizing: border-box;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 .item-inner {
@@ -57,11 +77,6 @@ main {
 .icon {
   width: 128px;
   height: 128px;
-}
-
-h1 {
-  font-size: 3.5rem;
-  font-weight: bold;
 }
 
 /* About Section */

@@ -12,7 +12,7 @@ function Home() {
     return (
         <main>
             <div className="main-body">
-                <h1>Hi! I'm Lucas</h1>
+                <h1>Hi! <span className="highlight">I'm Lucas</span></h1>
                 <p>Developer</p>
 
                 <div className="menu">
